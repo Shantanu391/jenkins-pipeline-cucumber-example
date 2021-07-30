@@ -32,7 +32,6 @@ pipeline{
                     fileIncludePattern: "**/cucumber.json",
                     jsonReportDirectory: 'target'
                 
-                echo currentBuild.rawBuild.getParent().getRootDir()
 
             }
 
